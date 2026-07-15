@@ -154,22 +154,22 @@ def generate_svg(theme="dark"):
     line_height = 24
     info_lines = [
         ("head", "nikola@iammistake"),
-        ("field", "Host", "Nikola Jagurinoski"),
-        ("field", "OS", "Arch Linux"),
+        ("field", "Name", "Nikola Jagurinoski"),
         ("field", "Location", "Macedonia"),
-        ("field", "Uptime", "22 years"),
-        ("field", "Status", "SWE · OSS"),
+        ("field", "Age", "22"),
+        ("field", "GitHub", "since 2020 · 29 repos"),
+        ("field", "Status", "SWE · OSS · Rustacean"),
         ("empty",),
         ("head", "stack"),
-        ("field", "Lang", "Rust, Python, TypeScript, Java"),
+        ("field", "Languages", "Rust, Python, TypeScript, Java"),
         ("field", "Editor", "Neovim"),
         ("field", "Shell", "zsh + tmux"),
         ("field", "WM/DE", "Hyprland"),
         ("field", "Tools", "Docker, Git, Neovim"),
         ("empty",),
-        ("head", "contact"),
-        ("field", "GitHub", "@IamMistake"),
+        ("head", "vibes"),
         ("field", "Motto", "fast software, clean interfaces"),
+        ("field", "Energy", "fAround/findOut > try/catch"),
     ]
 
     clip_paths = make_clip_paths(len(info_lines))
@@ -253,14 +253,7 @@ def generate_svg(theme="dark"):
 
 <g id="titlebar">
   <rect x="3" y="3" width="1174" height="34" rx="16" fill="{t['titlebar_bg']}" fill-opacity="{t['bg_alpha']}"/>
-  <circle cx="24" cy="20" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
-  <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
-  <text x="590" y="25" text-anchor="middle" class="term-label">nikola@iammistake ~ % ./about.sh --live</text>
-  <circle cx="1122" cy="20" r="4" fill="#F87171">
-    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="1132" y="24" class="scan-label">SCANNING</text>
+  <text x="590" y="25" text-anchor="middle" class="term-label">nikola@iammistake ~ % cat about.json</text>
 </g>
 
 <g transform="translate(0,38)">
