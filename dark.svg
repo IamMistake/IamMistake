@@ -110,22 +110,22 @@
   </g>
 
   <g clip-path="url(#lc0)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="head">nikola@iammistake</tspan><tspan class="cc"> -——————————————————————————————————————————————————————</tspan></text></g>
-<g clip-path="url(#lc1)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Name</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Nikola Jagurinoski</tspan></text></g>
-<g clip-path="url(#lc2)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Macedonia</tspan></text></g>
-<g clip-path="url(#lc3)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Age</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">22</tspan></text></g>
-<g clip-path="url(#lc4)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">since 2020 · 29 repos</tspan></text></g>
-<g clip-path="url(#lc5)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ................... </tspan><tspan class="value">SWE · OSS · Rustacean</tspan></text></g>
-<g clip-path="url(#lc6)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">.</tspan></text></g>
-<g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="head">stack</tspan><tspan class="cc"> -——————————————————————————————————————————————————————</tspan></text></g>
-<g clip-path="url(#lc8)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">: ................ </tspan><tspan class="value">Rust, Python, TypeScript, Java</tspan></text></g>
-<g clip-path="url(#lc9)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Editor</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Neovim</tspan></text></g>
-<g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Shell</tspan><tspan class="cc">: .................... </tspan><tspan class="value">zsh + tmux</tspan></text></g>
-<g clip-path="url(#lc11)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">WM/DE</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Hyprland</tspan></text></g>
-<g clip-path="url(#lc12)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Tools</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Docker, Git, Neovim</tspan></text></g>
-<g clip-path="url(#lc13)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">.</tspan></text></g>
-<g clip-path="url(#lc14)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="head">vibes</tspan><tspan class="cc"> -——————————————————————————————————————————————————————</tspan></text></g>
-<g clip-path="url(#lc15)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Motto</tspan><tspan class="cc">: .................... </tspan><tspan class="value">fast software, clean interfaces</tspan></text></g>
-<g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="cc">. </tspan><tspan class="key">Energy</tspan><tspan class="cc">: ................... </tspan><tspan class="value">fAround/findOut &gt; try/catch</tspan></text></g>
+<g clip-path="url(#lc1)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Name</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Nikola Jagurinoski</tspan></text></g>
+<g clip-path="url(#lc2)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="90" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Macedonia</tspan></text></g>
+<g clip-path="url(#lc3)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="114" class="cc">. </tspan><tspan class="key">Age</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">22</tspan></text></g>
+<g clip-path="url(#lc4)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="138" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">since 2020 · 29 repos</tspan></text></g>
+<g clip-path="url(#lc5)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="162" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ................... </tspan><tspan class="value">SWE · OSS · Rustacean</tspan></text></g>
+<g clip-path="url(#lc6)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="186" class="cc">.</tspan></text></g>
+<g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="210" class="head">stack</tspan><tspan class="cc"> -——————————————————————————————————————————————————————</tspan></text></g>
+<g clip-path="url(#lc8)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="234" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">: ................ </tspan><tspan class="value">Rust, Python, TypeScript, Java</tspan></text></g>
+<g clip-path="url(#lc9)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="258" class="cc">. </tspan><tspan class="key">Editor</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Neovim</tspan></text></g>
+<g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="282" class="cc">. </tspan><tspan class="key">Shell</tspan><tspan class="cc">: .................... </tspan><tspan class="value">zsh + tmux</tspan></text></g>
+<g clip-path="url(#lc11)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="306" class="cc">. </tspan><tspan class="key">WM/DE</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Hyprland</tspan></text></g>
+<g clip-path="url(#lc12)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Tools</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Docker, Git, Neovim</tspan></text></g>
+<g clip-path="url(#lc13)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="354" class="cc">.</tspan></text></g>
+<g clip-path="url(#lc14)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="378" class="head">vibes</tspan><tspan class="cc"> -——————————————————————————————————————————————————————</tspan></text></g>
+<g clip-path="url(#lc15)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="402" class="cc">. </tspan><tspan class="key">Motto</tspan><tspan class="cc">: .................... </tspan><tspan class="value">fast software, clean interfaces</tspan></text></g>
+<g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="426" class="cc">. </tspan><tspan class="key">Energy</tspan><tspan class="cc">: ................... </tspan><tspan class="value">fAround/findOut &gt; try/catch</tspan></text></g>
 
   <rect x="522" y="426" width="9" height="16" class="cursor-blink" opacity="0">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="2.59s" repeatCount="indefinite"/>

@@ -115,19 +115,20 @@ def make_lines(lines_data, x=520):
     result = []
     for i, item in enumerate(lines_data):
         kind = item[0]
+        y = 42 + i * 24
         if kind == "head":
             text = item[1]
             result.append(
                 f'<g clip-path="url(#lc{i})">'
                 f'<text x="{x}" y="0" fill="#dbeafe">'
-                f'<tspan x="{x}" y="{42}" class="head">{escape(text)}</tspan>'
+                f'<tspan x="{x}" y="{y}" class="head">{escape(text)}</tspan>'
                 f'<tspan class="cc"> '
                 f'-{"—" * 54}</tspan>'
                 f'</text></g>'
             )
         elif kind == "sep":
             result.append(f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" '
-                          f'fill="#dbeafe"><tspan x="{x}" y="{42}" '
+                          f'fill="#dbeafe"><tspan x="{x}" y="{y}" '
                           f'class="cc">.'
                           f'{" " * 68}</tspan></text></g>')
         elif kind == "field":
@@ -135,7 +136,7 @@ def make_lines(lines_data, x=520):
             dots = "." * (25 - len(key))
             result.append(
                 f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" fill="#dbeafe">'
-                f'<tspan x="{x}" y="{42}" class="cc">. </tspan>'
+                f'<tspan x="{x}" y="{y}" class="cc">. </tspan>'
                 f'<tspan class="key">{escape(key)}</tspan>'
                 f'<tspan class="cc">: {dots} </tspan>'
                 f'<tspan class="value">{escape(val)}</tspan>'
@@ -143,7 +144,7 @@ def make_lines(lines_data, x=520):
             )
         elif kind == "empty":
             result.append(f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" '
-                          f'fill="#dbeafe"><tspan x="{x}" y="{42}" '
+                          f'fill="#dbeafe"><tspan x="{x}" y="{y}" '
                           f'class="cc">.</tspan></text></g>')
     return result
 
