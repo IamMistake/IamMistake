@@ -6,25 +6,19 @@ from html import escape
 
 # ── ASCII portrait (left panel) ──────────────────────────────────
 PORTRAIT = r"""
-                 .......::::........
-             .:-=+++*********++=-:.
-          .:=+++***************++-=:.
-        .:=++++*****************+++=:.
-      .:=++++++*****************++++=:.
-     .-+++++++******************+++++-.
-    .-++++++++*****+++++*******++++++-.
-   .-++++++++*****+--=+*******+++++++-.
-   :++++++++******-  .+*******+++++++=:
-  .-++++++++*****-    :********++++++-.
-  :+++++++++*****=    =********++++++=:
-  .-+++++++++*****-  -*********++++++-.
-   :+++++++++*******+**********++++++=:
-   .-+++++++++*****************++++++-.
-    .-+++++++++***************++++++-.
-     .-+++++++++++++++++++++++++++-.
-       :-++++++++++++++++++++++-:
-         .-==================-.
-            ...............
+                  .--.
+                 |o_o |
+                 |:_/ |
+                //   \ \
+               (|     | )
+              /'\_   _/`\
+              \___)=(___/
+
+              L I N U X
+          arch btw / rust enjoyer
+
+        fast tools, tiny loops,
+        clean interfaces, sharp edges
 """.strip().splitlines()
 
 # ── Profile data ─────────────────────────────────────────────────
@@ -119,7 +113,7 @@ def make_lines(lines_data, x=520):
         if kind == "head":
             text = item[1]
             result.append(
-                f'<g clip-path="url(#lc{i})">'
+                f'<g>'
                 f'<text x="{x}" y="0" fill="#dbeafe">'
                 f'<tspan x="{x}" y="{y}" class="head">{escape(text)}</tspan>'
                 f'<tspan class="cc"> '
@@ -127,7 +121,7 @@ def make_lines(lines_data, x=520):
                 f'</text></g>'
             )
         elif kind == "sep":
-            result.append(f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" '
+            result.append(f'<g><text x="{x}" y="0" '
                           f'fill="#dbeafe"><tspan x="{x}" y="{y}" '
                           f'class="cc">.'
                           f'{" " * 68}</tspan></text></g>')
@@ -135,7 +129,7 @@ def make_lines(lines_data, x=520):
             key, val = item[1], item[2]
             dots = "." * (25 - len(key))
             result.append(
-                f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" fill="#dbeafe">'
+                f'<g><text x="{x}" y="0" fill="#dbeafe">'
                 f'<tspan x="{x}" y="{y}" class="cc">. </tspan>'
                 f'<tspan class="key">{escape(key)}</tspan>'
                 f'<tspan class="cc">: {dots} </tspan>'
@@ -143,7 +137,7 @@ def make_lines(lines_data, x=520):
                 f'</text></g>'
             )
         elif kind == "empty":
-            result.append(f'<g clip-path="url(#lc{i})"><text x="{x}" y="0" '
+            result.append(f'<g><text x="{x}" y="0" '
                           f'fill="#dbeafe"><tspan x="{x}" y="{y}" '
                           f'class="cc">.</tspan></text></g>')
     return result
@@ -177,8 +171,8 @@ def generate_svg(theme="dark"):
     info_svg = make_lines(info_lines)
 
     # ASCII portrait as tspans
-    ascii_y_start = 79.98
-    ascii_line_h = 7.55
+    ascii_y_start = 96
+    ascii_line_h = 19
     tspans = []
     for li, line in enumerate(PORTRAIT):
         y = ascii_y_start + li * ascii_line_h
@@ -235,7 +229,7 @@ def generate_svg(theme="dark"):
   </mask>
   {chr(10).join(clip_paths)}
   <style>
-    .ascii  {{ font-family: 'Courier New', Consolas, monospace; font-size: 7.4px; fill: url(#asciiGrad); letter-spacing: -0.2px; }}
+    .ascii  {{ font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: url(#asciiGrad); letter-spacing: -0.2px; }}
     .key    {{ font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: {t['key_fill']}; font-weight: bold; }}
     .value  {{ font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: {t['value_fill']}; }}
     .cc     {{ font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: {t['cc_fill']}; }}
