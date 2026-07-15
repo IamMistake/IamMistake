@@ -87,7 +87,7 @@
 
   <g mask="url(#revealMask)">
   <text x="30" y="0" class="ascii">
-<tspan x="30" y="96.00" xml:space="preserve">.--.</tspan>
+<tspan x="30" y="96.00" xml:space="preserve">                   .--.</tspan>
 <tspan x="30" y="115.00" xml:space="preserve">                 |o_o |</tspan>
 <tspan x="30" y="134.00" xml:space="preserve">                 |:_/ |</tspan>
 <tspan x="30" y="153.00" xml:space="preserve">                //   \ \</tspan>
@@ -96,10 +96,6 @@
 <tspan x="30" y="210.00" xml:space="preserve">              \___)=(___/</tspan>
 <tspan x="30" y="229.00" xml:space="preserve"></tspan>
 <tspan x="30" y="248.00" xml:space="preserve">              L I N U X</tspan>
-<tspan x="30" y="267.00" xml:space="preserve">          arch btw / rust enjoyer</tspan>
-<tspan x="30" y="286.00" xml:space="preserve"></tspan>
-<tspan x="30" y="305.00" xml:space="preserve">        fast tools, tiny loops,</tspan>
-<tspan x="30" y="324.00" xml:space="preserve">        clean interfaces, sharp edges</tspan>
   </text>
   </g>
 
